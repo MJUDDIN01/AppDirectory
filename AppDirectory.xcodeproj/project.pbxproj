@@ -74,24 +74,48 @@
 		9F335A97282439E5004DE967 /* AppDirectory */ = {
 			isa = PBXGroup;
 			children = (
+				9F335AC428244187004DE967 /* People */,
+				9F335AC32824414F004DE967 /* Apis */,
+				9F335AC228244144004DE967 /* Utility */,
 				9F335A98282439E5004DE967 /* AppDelegate.swift */,
 				9F335A9A282439E5004DE967 /* SceneDelegate.swift */,
 				9F335AAC28243BF9004DE967 /* Main.storyboard */,
 				9F335AA1282439E7004DE967 /* Assets.xcassets */,
 				9F335AA3282439E7004DE967 /* LaunchScreen.storyboard */,
 				9F335AA6282439E7004DE967 /* Info.plist */,
-				9F335AAE28243C92004DE967 /* PeopleViewController.swift */,
-				9F335AB028243CD6004DE967 /* PeopleViewModel.swift */,
-				9F335AB228243D94004DE967 /* PeopleCollectionViewCell.swift */,
-				9F335AB428243DDB004DE967 /* Constants.swift */,
-				9F335AB628243E17004DE967 /* PeopleData.swift */,
-				9F335AB828243E46004DE967 /* ApiTask.swift */,
-				9F335ABA28243E7C004DE967 /* DirectoryApi.swift */,
-				9F335ABC28243EB5004DE967 /* ApiError.swift */,
-				9F335ABE28243F24004DE967 /* ImageDownloader.swift */,
-				9F335AC028243F8B004DE967 /* ImageCacher.swift */,
 			);
 			path = AppDirectory;
+			sourceTree = "<group>";
+		};
+		9F335AC228244144004DE967 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				9F335AB428243DDB004DE967 /* Constants.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		9F335AC32824414F004DE967 /* Apis */ = {
+			isa = PBXGroup;
+			children = (
+				9F335AC028243F8B004DE967 /* ImageCacher.swift */,
+				9F335ABE28243F24004DE967 /* ImageDownloader.swift */,
+				9F335ABC28243EB5004DE967 /* ApiError.swift */,
+				9F335ABA28243E7C004DE967 /* DirectoryApi.swift */,
+				9F335AB628243E17004DE967 /* PeopleData.swift */,
+				9F335AB828243E46004DE967 /* ApiTask.swift */,
+			);
+			path = Apis;
+			sourceTree = "<group>";
+		};
+		9F335AC428244187004DE967 /* People */ = {
+			isa = PBXGroup;
+			children = (
+				9F335AB028243CD6004DE967 /* PeopleViewModel.swift */,
+				9F335AB228243D94004DE967 /* PeopleCollectionViewCell.swift */,
+				9F335AAE28243C92004DE967 /* PeopleViewController.swift */,
+			);
+			path = People;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
