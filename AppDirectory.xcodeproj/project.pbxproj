@@ -82,7 +82,7 @@
 		9F335A97282439E5004DE967 /* AppDirectory */ = {
 			isa = PBXGroup;
 			children = (
-				9F335AC428244187004DE967 /* People */,
+				9F4107A828245D5300871C1D /* Modules */,
 				9F335AC32824414F004DE967 /* Apis */,
 				9F335AC228244144004DE967 /* Utility */,
 				9F335A98282439E5004DE967 /* AppDelegate.swift */,
@@ -91,10 +91,6 @@
 				9F335AA1282439E7004DE967 /* Assets.xcassets */,
 				9F335AA3282439E7004DE967 /* LaunchScreen.storyboard */,
 				9F335AA6282439E7004DE967 /* Info.plist */,
-				9F335AC5282442F2004DE967 /* RoomsViewController.swift */,
-				9F335AC7282444EF004DE967 /* RoomsTableViewCell.swift */,
-				9F335AC928244524004DE967 /* RoomsViewModel.swift */,
-				9F335ACB28244563004DE967 /* RoomsData.swift */,
 			);
 			path = AppDirectory;
 			sourceTree = "<group>";
@@ -110,11 +106,11 @@
 		9F335AC32824414F004DE967 /* Apis */ = {
 			isa = PBXGroup;
 			children = (
+				9F4107AA28245D8300871C1D /* Entities */,
 				9F335AC028243F8B004DE967 /* ImageCacher.swift */,
 				9F335ABE28243F24004DE967 /* ImageDownloader.swift */,
 				9F335ABC28243EB5004DE967 /* ApiError.swift */,
 				9F335ABA28243E7C004DE967 /* DirectoryApi.swift */,
-				9F335AB628243E17004DE967 /* PeopleData.swift */,
 				9F335AB828243E46004DE967 /* ApiTask.swift */,
 			);
 			path = Apis;
@@ -128,6 +124,34 @@
 				9F335AAE28243C92004DE967 /* PeopleViewController.swift */,
 			);
 			path = People;
+			sourceTree = "<group>";
+		};
+		9F4107A828245D5300871C1D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				9F335AC428244187004DE967 /* People */,
+				9F4107A928245D6000871C1D /* Rooms */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		9F4107A928245D6000871C1D /* Rooms */ = {
+			isa = PBXGroup;
+			children = (
+				9F335AC5282442F2004DE967 /* RoomsViewController.swift */,
+				9F335AC7282444EF004DE967 /* RoomsTableViewCell.swift */,
+				9F335AC928244524004DE967 /* RoomsViewModel.swift */,
+			);
+			path = Rooms;
+			sourceTree = "<group>";
+		};
+		9F4107AA28245D8300871C1D /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				9F335ACB28244563004DE967 /* RoomsData.swift */,
+				9F335AB628243E17004DE967 /* PeopleData.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
