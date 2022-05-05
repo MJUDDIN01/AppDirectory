@@ -22,6 +22,10 @@
 		9F335ABD28243EB6004DE967 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F335ABC28243EB5004DE967 /* ApiError.swift */; };
 		9F335ABF28243F24004DE967 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F335ABE28243F24004DE967 /* ImageDownloader.swift */; };
 		9F335AC128243F8B004DE967 /* ImageCacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F335AC028243F8B004DE967 /* ImageCacher.swift */; };
+		9F335AC6282442F2004DE967 /* RoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F335AC5282442F2004DE967 /* RoomsViewController.swift */; };
+		9F335AC8282444EF004DE967 /* RoomsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F335AC7282444EF004DE967 /* RoomsTableViewCell.swift */; };
+		9F335ACA28244524004DE967 /* RoomsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F335AC928244524004DE967 /* RoomsViewModel.swift */; };
+		9F335ACC28244563004DE967 /* RoomsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F335ACB28244563004DE967 /* RoomsData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +46,10 @@
 		9F335ABC28243EB5004DE967 /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
 		9F335ABE28243F24004DE967 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
 		9F335AC028243F8B004DE967 /* ImageCacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacher.swift; sourceTree = "<group>"; };
+		9F335AC5282442F2004DE967 /* RoomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewController.swift; sourceTree = "<group>"; };
+		9F335AC7282444EF004DE967 /* RoomsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsTableViewCell.swift; sourceTree = "<group>"; };
+		9F335AC928244524004DE967 /* RoomsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewModel.swift; sourceTree = "<group>"; };
+		9F335ACB28244563004DE967 /* RoomsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,10 @@
 				9F335AA1282439E7004DE967 /* Assets.xcassets */,
 				9F335AA3282439E7004DE967 /* LaunchScreen.storyboard */,
 				9F335AA6282439E7004DE967 /* Info.plist */,
+				9F335AC5282442F2004DE967 /* RoomsViewController.swift */,
+				9F335AC7282444EF004DE967 /* RoomsTableViewCell.swift */,
+				9F335AC928244524004DE967 /* RoomsViewModel.swift */,
+				9F335ACB28244563004DE967 /* RoomsData.swift */,
 			);
 			path = AppDirectory;
 			sourceTree = "<group>";
@@ -193,14 +205,18 @@
 				9F335AB728243E17004DE967 /* PeopleData.swift in Sources */,
 				9F335AB128243CD6004DE967 /* PeopleViewModel.swift in Sources */,
 				9F335ABD28243EB6004DE967 /* ApiError.swift in Sources */,
+				9F335ACC28244563004DE967 /* RoomsData.swift in Sources */,
 				9F335AB328243D94004DE967 /* PeopleCollectionViewCell.swift in Sources */,
 				9F335AC128243F8B004DE967 /* ImageCacher.swift in Sources */,
 				9F335A9B282439E5004DE967 /* SceneDelegate.swift in Sources */,
 				9F335ABF28243F24004DE967 /* ImageDownloader.swift in Sources */,
 				9F335AB928243E46004DE967 /* ApiTask.swift in Sources */,
+				9F335AC6282442F2004DE967 /* RoomsViewController.swift in Sources */,
 				9F335AAF28243C92004DE967 /* PeopleViewController.swift in Sources */,
 				9F335ABB28243E7C004DE967 /* DirectoryApi.swift in Sources */,
+				9F335AC8282444EF004DE967 /* RoomsTableViewCell.swift in Sources */,
 				9F335AB528243DDB004DE967 /* Constants.swift in Sources */,
+				9F335ACA28244524004DE967 /* RoomsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
