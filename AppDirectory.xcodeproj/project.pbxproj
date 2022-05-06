@@ -33,6 +33,7 @@
 		9F4107CA2824692E00871C1D /* PeopleViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4107C92824692E00871C1D /* PeopleViewModelTests.swift */; };
 		9F4107D6282509FD00871C1D /* AppDirectoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4107D5282509FD00871C1D /* AppDirectoryUITests.swift */; };
 		9F4107D8282509FD00871C1D /* AppDirectoryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4107D7282509FD00871C1D /* AppDirectoryUITestsLaunchTests.swift */; };
+		9F4107DE2825205F00871C1D /* peopleSuccess.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F4107CD2824FE7000871C1D /* peopleSuccess.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -343,6 +344,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F4107DE2825205F00871C1D /* peopleSuccess.json in Resources */,
 				9F4107C32824616900871C1D /* peopleWrongKeyResponce.json in Resources */,
 				9F4107C12824610E00871C1D /* roomSuccess.json in Resources */,
 			);

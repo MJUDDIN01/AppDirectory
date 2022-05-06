@@ -28,7 +28,7 @@ class PeopleViewModelTests: XCTestCase {
         peoplesViewModel.submitAction(action: .loadPeoples(DirectoryRequest(path: "people")))
         
 
-        XCTAssertEqual(peoplesViewModel.numberOfPeople, 65)
+        XCTAssertEqual(peoplesViewModel.numberOfPeople, 67)
         
         let people =  peoplesViewModel.getPeople(for: 0)
 
