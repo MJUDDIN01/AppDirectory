@@ -8,7 +8,6 @@
 import Foundation
 import UIKit
 
-
 protocol ImageCacherType {
     func getImage(url:String)-> Data?
     func saveImage(url:String, data:Data)

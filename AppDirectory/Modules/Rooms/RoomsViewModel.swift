@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 struct Room {
     var createdAt: String
     var occupiedMessage: String

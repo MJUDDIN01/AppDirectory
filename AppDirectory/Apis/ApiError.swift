@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 enum ApiError: Error , Equatable {
     case UrlNotCorrect(String)
     case recieveNilResponse(String)
